@@ -14,6 +14,16 @@ function MenuBar() {
                 <CustomLink href="/vd9/register">
                     Register
                 </CustomLink>
+                <CustomLink href="/vd10/a">
+                    vd10 - A
+                </CustomLink>
+                <CustomLink href="/vd10/b">
+                    vd10 - B
+                </CustomLink>
+                <CustomLink href="/vd10/c">
+                    vd10 - C
+                </CustomLink>
+                
             </NavigationMenuList>
         </NavigationMenu>
     );

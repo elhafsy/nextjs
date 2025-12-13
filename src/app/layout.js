@@ -26,7 +26,12 @@ export default function RootLayout({ children }) {
       >
         {/* <NavBar/> */}
         <MenuBar/>
-        {children}
+        <section className="my-4">
+          {children}
+        </section>
+        <footer className={'bg-slate-900 text-white text-center'}>
+          &copy; {new Date().getFullYear()}
+        </footer>
       </body>
     </html>
   );
