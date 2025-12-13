@@ -5,7 +5,7 @@ function MenuBar() {
     return (
         <NavigationMenu>
             <NavigationMenuList>
-                <CustomLink href="/vd9/login">
+                {/* <CustomLink href="/vd9/login">
                     Login
                 </CustomLink>
                 <CustomLink href="/vd9/logout">
@@ -22,6 +22,9 @@ function MenuBar() {
                 </CustomLink>
                 <CustomLink href="/vd10/c">
                     vd10 - C
+                </CustomLink> */}
+                <CustomLink href="/vd11/products">
+                    products
                 </CustomLink>
                 
             </NavigationMenuList>
